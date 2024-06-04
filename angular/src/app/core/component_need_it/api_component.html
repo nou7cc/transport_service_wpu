@@ -2,7 +2,7 @@
     <div class="card">
             <h1>Student Registation</h1>
     
-    <form>
+ <form>
         <div class="form-group">
           <label>Student Name</label>
           <input type="text" [(ngModel)]="stname" [ngModelOptions]="{standalone: true}" class="form-control" id="stname" placeholder="Enter Name">
@@ -24,7 +24,7 @@
        
       </form>
     </div>
-    
+  
   
     
         <div class="container mt-4" >
@@ -42,12 +42,12 @@
             <tbody>
                 <tr *ngFor="let StudentItem of StudentArray">
                 <td>{{StudentItem.id  }}</td>
-                <td>{{StudentItem.stname }}</td>
-                <td>{{StudentItem.course }}</td>
+                <td>{{StudentItem.trip_time }}</td>
+                <td>{{StudentItem.traffic_id }}</td>
                 <td>{{StudentItem.fee }}</td>
                 <td>
-                  <button type="button" class="btn btn-success" (click)="setUpdate(StudentItem)">Edit</button>
-                  <button type="button" class="btn btn-danger" (click)="setDelete(StudentItem)">Delete</button>            
+                  <!-- <button type="button" class="btn btn-success" (click)="setUpdate(StudentItem)">Edit</button> -->
+                  <!-- <button type="button" class="btn btn-danger" (click)="setDelete(StudentItem)">Delete</button>             -->
                 </td>
               </tr>          
             </tbody>

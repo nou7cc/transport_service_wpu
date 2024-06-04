@@ -1,45 +1,41 @@
-// import { HttpClient } from '@angular/common/http';
-// import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
 
-// @Component({
-//   selector: 'app-studencrud',
-//   templateUrl: './studencrud.component.html',
+@Component({
+  selector: 'app-studencrud',
+  templateUrl: './api_component.html'
 //   styleUrls: ['./studencrud.component.scss']
-// })
-// export class StudencrudComponent {
+})
+export class StudencrudComponent {
 
-//   StudentArray : any[] = [];
-//   isResultLoaded = false;
-//   isUpdateFormActive = false;
+  StudentArray : any[] = [];
+  isResultLoaded = false;
+  isUpdateFormActive = false;
 
-//   stname: string ="";
-//   course: string ="";
-//   fee: string ="";
-//   currentStudentID = "";
+  stname: string ="";
+  course: string ="";
+  fee: string ="";
+  currentStudentID = "";
 
-//   constructor(private http: HttpClient ) 
-//   {
-//     this.getAllStudent();
-//   }
+  constructor(private http: HttpClient ) 
+  {
+    this.getAllStudent();
+  }
 
-//   ngOnInit(): void {
-//   }
+  ngOnInit(): void {
+  }
 
-//   getAllStudent()
-//   { 
-//     this.http.get("http://localhost:9002/api/student/")
-//     .subscribe((resultData: any)=>
-//     {
-//         this.isResultLoaded = true;
-//         console.log(resultData.data);
-//         this.StudentArray = resultData.data;
-//     });
-//   }
-
-
-  
-
-
+  getAllStudent()
+  { 
+    this.http.get("http://localhost:3000/trips")
+    .subscribe((resultData: any)=>
+    {
+        this.isResultLoaded = true;
+        console.log(resultData.data);
+        this.StudentArray = resultData.data;
+    });
+  }
+}
 //   register()
 //   {
 //    // this.isLogin = false; 

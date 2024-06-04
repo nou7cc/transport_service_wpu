@@ -1,7 +1,7 @@
 -- bus_id BIGINT NOT NULL FOREIGN KEY REFERENCES buses(ID),
 -- admins_id BIGINT NOT NULL FOREIGN KEY REFERENCES admins(ID),
 -- traffic_id BIGINT NOT NULL FOREIGN KEY REFERENCES traffics(ID),
-ALTER TABLE persons
+-- ALTER TABLE persons
 -- add bus_id BIGINT;
 -- add admins_id BIGINT
 -- add traffic_id BIGINT
@@ -36,3 +36,6 @@ ALTER TABLE persons
 -- add users_id BIGINT
 -- add employees_id BIGINT
 -- add FOREIGN key (employees_id) REFERENCES employees(ID) 
+-- DROP TABLE confirms
+-- ALTER TABLE trips
+-- add trip_name varchar(30) NULL

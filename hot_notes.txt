@@ -20,3 +20,10 @@
 
 
 ** the -blackList_table- contain users who reserve but didn't up to buses
+
+
+
+------------------------------------------------------------
+make [confir_done] column in reservations table and drop confirms table
+make [QRCODE] column in reservations table and drop QRcodes table
+delete blackList table, QRCODE table
