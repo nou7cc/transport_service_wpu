@@ -1,0 +1,14 @@
+buses
+QRcodes
+admins
+employees
+users
+trips
+reservations
+traffics
+orders    
+confirmes_reserve
+persons (مريض-زائر-إداري-أُخرى)
+blackList
+merges
+schd

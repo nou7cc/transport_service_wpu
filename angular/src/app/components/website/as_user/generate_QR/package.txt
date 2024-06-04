@@ -1,0 +1,1 @@
+    "@techiediaries/ngx-qrcode": "^9.0.0",

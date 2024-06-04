@@ -1,0 +1,22 @@
+
+
+** the -reservations_table- is so important in DB because
+
+    -it's show to us how many users reserve in trip
+    -from reservations table we can make merge trips and create new trip which merge two trips
+    - 
+    -
+    -
+** the -confirm_reserve_table- like reservations but contain users who up to bus and employee scan QRCODE
+   this table also important to write reports in users who reserve but didn't up to bus.
+
+
+** the -statistics_table- contain count of
+-how many users use transport service
+-how many buses in transport service
+-how many users reserve spicfic trip in week
+-how many users reseve spicfic trip in month
+-   
+
+
+** the -blackList_table- contain users who reserve but didn't up to buses

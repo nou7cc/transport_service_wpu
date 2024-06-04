@@ -1,0 +1,2 @@
+    "ngx-scanner-qrcode": "1.6.8", 
+    "@popperjs/core": "^2.11.6",

@@ -1,0 +1,38 @@
+-- bus_id BIGINT NOT NULL FOREIGN KEY REFERENCES buses(ID),
+-- admins_id BIGINT NOT NULL FOREIGN KEY REFERENCES admins(ID),
+-- traffic_id BIGINT NOT NULL FOREIGN KEY REFERENCES traffics(ID),
+ALTER TABLE persons
+-- add bus_id BIGINT;
+-- add admins_id BIGINT
+-- add traffic_id BIGINT
+-- add FOREIGN key (bus_id) REFERENCES buses(ID);
+-- add FOREIGN key(admins_id) REFERENCES admins(ID);
+-- add FOREIGN key (traffic_id) REFERENCES traffics(ID);
+-- traffic_id BIGINT NOT NULL FOREIGN KEY REFERENCES traffics(ID)
+-- add traffic_id BIGINT
+-- add FOREIGN key (traffic_id) REFERENCES traffics(ID)
+-- add trip_id BIGINT
+-- add FOREIGN key (trip_id) REFERENCES trips(ID)
+-- add users_id BIGINT
+-- add FOREIGN key (users_id) REFERENCES users(ID)
+-- add bus_id BIGINT
+-- add FOREIGN key (bus_id) REFERENCES buses(ID)
+-- add QRcode_id BIGINT
+-- add FOREIGN key (QRcode_id) REFERENCES QRcodes(ID)
+-- add reserve_id BIGINT
+-- add FOREIGN key (reserve_id) REFERENCES reservations(ID)
+-- add trip_id BIGINT
+-- add FOREIGN key (trip_id) REFERENCES trips(ID)
+-- add users_id BIGINT
+-- add FOREIGN key (users_id) REFERENCES users(ID)
+-- add users_id BIGINT
+-- add FOREIGN key (users_id) REFERENCES users(ID)
+-- add bus BIGINT
+-- add FOREIGN key (bus) REFERENCES buses(ID)
+-- add traffic_id BIGINT
+-- add FOREIGN key (traffic_id) REFERENCES traffics(ID) 
+-- add admin_id BIGINT
+-- add FOREIGN key (admin_id) REFERENCES admins(ID)
+-- add users_id BIGINT
+-- add employees_id BIGINT
+-- add FOREIGN key (employees_id) REFERENCES employees(ID) 

@@ -1,0 +1,48 @@
+-------------------------------------------
+anyone api
+-------------------------------------------
+localhost:5000
+localhost:5000/trips *
+localhost:5000/login
+localhost:5000/signup
+-------------------------------------------
+admin api
+-------------------------------------------
+localhost:5000/admin 
+localhost:5000/admin/addUser *
+localhost:5000/admin/getUsers *
+localhost:5000/getUser/id *
+localhost:5000/admin/Employees/update *
+localhost:5000/admin/Employees/delete *
+localhost:5000/admin/Employees/add *
+localhost:5000/getEmployees *
+localhost:5000/getEmployee/id *
+localhost:5000/admin/getUser/id *
+localhost:5000/admin/updateUsers *
+localhost:5000/admin/deleteUsers *
+localhost:5000/admin/addTrips *
+localhost:5000/admin/getTrips *
+localhost:5000/admin/getTrips/id *
+localhost:5000/admin/updateTrips *
+localhost:5000/admin/deleteTrips *
+localhost:5000/admin/maps 
+localhost:5000/admin/statistics 
+localhost:5000/admin/blackList
+localhost:5000/admin/getTrips/id/reservations/transformation
+localhost:5000/admin/getTrips/id/reservations
+-------------------------------------------
+user api
+-------------------------------------------
+localhost:5000/user/getTrips
+localhost:5000/user/id
+localhost:5000/user/trips/id
+localhost:5000/user/trips/id/make_reservation
+localhost:5000/user/order_bus
+-------------------------------------------
+employee api
+-------------------------------------------
+localhost:5000/emp/scanQRcode
+localhost:5000/emp/scanQRcode/verfiyQRcode
+localhost:5000/emp/addperson
+localhost:5000/emp/getTrips
+localhost:5000/emp/id
