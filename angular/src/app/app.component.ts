@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
-// import { StudencrudComponent } from './core/component_need_it/api_component';
-
+import { MasterService } from './core/master.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,6 +9,8 @@ import { map } from 'rxjs/operators';
 })
 export class AppComponent  {
   loadedPosts = [];
+  constructor(private master: MasterService){}
+
 }
 //   constructor(private http: HttpClient) {}
 
